@@ -1,0 +1,3 @@
+# SASEUL 블록 데이터 자동 복원 및 재시작
+# 매일 새벽 01:00에 실행
+0 1 * * * root /usr/local/bin/saseul-restore-restart.sh >> /var/log/saseul-reset.log 2>&1
